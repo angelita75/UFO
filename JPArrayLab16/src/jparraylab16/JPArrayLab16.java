@@ -11,9 +11,6 @@ import java.util.*;
  */
 public class JPArrayLab16 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
        /* int[] myarr = new int[5];
@@ -66,6 +63,19 @@ public class JPArrayLab16 {
             {
                 System.out.print(arr[i]+" ");
             }
+
+
+    public class Employee extends Person {
+    
+    private String office;
+    private double salary;
+    private MyDate dateHired;  
+    
+    public Employee (String name, String address, String phoneNumber, String emailAddress,String office, double salary, MyDate dateHired){
+        super(name, address,phoneNumber,emailAddress);
+        this.office=office;
+        this.salary=salary;
+        this.dateHired=dateHired;
         }
     }
 }
